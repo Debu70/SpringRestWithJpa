@@ -1,6 +1,6 @@
 # 🧑‍💼 Employee Management System - Spring Boot + MySQL
 
-A simple Employee Management application built using **Spring Boot**, **Spring Data JPA**, and **MySQL**. The project supports basic CRUD operations and includes a feature to fetch employees by city.
+A simple Employee Management application built using **Spring Boot**, **Spring Data JPA**, and **MySQL**. The project supports basic CRUD operations.
 
 ---
 
