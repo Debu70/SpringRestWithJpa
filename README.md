@@ -8,9 +8,12 @@ A simple Employee Management application built using **Spring Boot**, **Spring D
 
 - Add a new employee
 - View all employees
+- View Employe By Employee-ID
 - Update employee details
 - Delete an employee
-- Get employees by city (custom JPA query)
+- Delete all Employee
+  
+
 
 ---
 
@@ -28,4 +31,16 @@ A simple Employee Management application built using **Spring Boot**, **Spring D
 ---
 
 ## 🏗️ Project Structure
+src/ ├── main/ │ ├── java/ │ │ └── com.example.employee/ │ │ ├── controller/ │ │ ├── entity/ │ │ ├── repository/ │ │ └── service/ │ └── resources/ │ ├── application.properties │ └── ... └── test/
 
+# Sample JSON
+```json
+{
+  
+  "emp_name": "Jhon Deo",
+  "emp_age": 57,
+  "emp_salary": 120000.00,
+  "emp_department": "S. Developer",
+  "emp_city": "Odisha"
+
+}
